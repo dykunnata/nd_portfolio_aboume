@@ -11,7 +11,7 @@ body {
 	width: 100%;
 	font: bold 16px sans-serif;
 	text-align: left;
-
+position: sticky;
 	padding: 50px 60px;
 	margin-top: 80px;
 	overflow: hidden;
