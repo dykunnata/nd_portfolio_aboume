@@ -8,8 +8,12 @@ height: 700px;
 margin-top: -60px;
 padding: 0;
 position: relative;
-
 }
+
+.left {
+height: 124vh;
+}
+
 .flower-1 {
     content: url(../images/flower.png);
     width: 60px;
@@ -157,10 +161,20 @@ h2 {
     text-align: center;
     margin-left: 10%;
     position: relative; 
-    top:-500px; 
+    top:-350px; 
     font-family: 'Muli', sans-serif;
     text-shadow: 0 3px 3px #A5A5A5;
     color: #467640;
+}
+
+#iamhere {
+  text-align: center;
+  margin-left: 10%;
+  position: relative; 
+  top:-550px; 
+  font-family: 'Muli', sans-serif;
+  text-shadow: 0 3px 3px #A5A5A5;
+  color: #467640;
 }
 
 ul {
@@ -306,14 +320,21 @@ text-align: right;
 
 }
 
+.centertext {
+  margin-top: -100px;
+}
+
 #aboutme {
     text-align: left;
-    margin-left: -550px;
-    margin-top: 250px;
-    padding-top: 20px;
+    margin-left: 50px;
+    /* margin-top: 550px;
+    padding-top: 20px; */
     margin-right: 100px;
     padding-left: 50px;
     text-shadow: 3px 2px lightgrey;
+    color: #467640;
+    font-family: 'Muli', sans-serif;
+    font-size: 25px;
 }
 
 
@@ -328,20 +349,24 @@ text-align: right;
 
 .achieve {
     text-align: left;
-    margin-top: 500px;
-    padding-top: 20px;
-    margin-right: 50px;
-    margin-left: -80px;
+    margin-top: -54px;
+    /* padding-top: 20px; */
+    margin-right: 40px;
+    /* margin-left: -80px; */
     padding-left: 0;
     text-shadow: 3px 2px lightgrey;
+    color: #467640;
+    font-family: 'Muli', sans-serif;
+    font-size: 25px;
 }
 
 .bigtext{
-    text-align: left;
-    margin-right: 200px;
-    padding-left: 350px;
-    margin-top: -770px;
-    font-family: 'Muli', sans-serif;
+  text-align: left;
+  margin-right: 200px;
+  position: relative;
+  padding-left: 350px;
+  margin-top: 70px;
+  font-family: 'Muli', sans-serif;
 }
 
 
