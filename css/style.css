@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: whitesmoke;
+    width: 100vw;
 }
 
 .me {
@@ -11,7 +12,8 @@ position: relative;
 }
 
 .left {
-height: 124vh;
+/* height: 124vh; */
+height: 800px;
 }
 
 .flower-1 {
@@ -148,7 +150,8 @@ height: 124vh;
       font-weight: bold;
       letter-spacing: 0.1em;
       margin-top: 0;
-      top: 43%;
+      /* top: 43%; */
+      margin-top: -500px;
       left: 32%;
       text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
                        5px 10px 5px rgba(0,0,0,0.05),
@@ -643,6 +646,14 @@ text-align: right;
       "work4"
       ;
     }
+    .flip-card img {
+      width: 80%;
+  
+  }
+  /* .parallax{
+    width: 414px;
+    height: 300px;
+  } */
   }
 
 
